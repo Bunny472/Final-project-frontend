@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetBlinkBD - Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="DarkLogo.png" alt="BudgetBlinkBD Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="/Home/Home.html">Home</a></li>
+                <li><a href="#" class="active">Search</a></li>
+                <!-- <li><a href="#">Discussion</a></li> -->
+                <li><a href="#">Links</a></li>
+                <li><a href="/Login/Signup.html">Login</a></li>
+                <li><a href="/Pc Builder/Pc Builder.html" class="btn">Pc Builder</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-section">
+        <form class="search-form">
+            <input type="text" placeholder="Enter product name...">
+            <button type="submit"><img src="search_icon.png" alt="Search"></button>
+        </form>
+    </section>
+    <main>
+        <div class="container">
+            <div class="loading-text" id="loadingText">Loading...</div>   
+        </div>
+    </main>
+    <script src="/Search/script.js"></script>
+</body>
+</html>

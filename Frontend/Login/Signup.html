@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Free Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup-container">
+        <h1>Create Free Account</h1>
+      
+        <form id="signupForm">
+            <input type="text" id="fullname" placeholder="First & Last Name" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <!-- Password Input with Show Password Checkbox -->
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Password" required>
+                <label class="show-password-label">
+                    <input type="checkbox" id="showPassword"> Show
+                </label>
+            </div>
+
+            <!-- Confirm Password Input with Show Password Checkbox -->
+            <div class="password-container">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                <label class="show-password-label">
+                    <input type="checkbox" id="showConfirmPassword"> Show
+                </label>
+            </div>
+
+            <button type="submit" class="signup-button">Sign Up</button>
+          
+            <p>Already have an account? <a href="/Login/Login.html">Login</a></p>
+        </form>
+        <p id="message" class="message"></p> <!-- Message display -->
+    </div>
+    <script src="/Login/script.js"></script>
+</body>
+</html>

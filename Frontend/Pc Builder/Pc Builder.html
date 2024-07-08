@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BudgetBlinkBD - PC Builder</title>
+        <link rel="stylesheet" href="PCStyles.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="DarkLogo.png" alt="BudgetBlinkBD Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/Home/Home.html">Home</a></li>
+                    <li><a href="/Search/Search.html">Search</a></li>
+                    <!-- <li><a href="#">Discussion</a></li> -->
+                    <li><a href="#">Links</a></li>
+                    <li><a href="/Login/Signup.html">Login</a></li>
+                    <li><a href="/Pc Builder/Pc Builder.html"
+                            class="btn active">Pc Builder</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="builder-section">
+            <div class="builder-content">
+                <div class="logo-large">
+                    <img src="Big Logo.png" alt="BudgetBlinkBD Large Logo">
+                </div>
+
+                <p>Get the most thunder for your taka</p>
+                <form class="budget-form">
+                    <label for="budget">PC Budget?</label>
+                    <input type="text" id="budget" placeholder ৳">
+                    <button type="submit">Build my PC</button>
+                </form>
+                <p class="note">Note: If you have budget remaining after
+                    selecting the best components for your pc, Pc Builder will
+                    automatically include a monitor.</p>
+                <div class="loader-container">
+                    <div class="loading-text" id="loadingText">Loading...</div>
+                </div>
+                <!-- <table class="pc-build-table">
+                <thead>
+                    <tr>
+                        <th>Component</th>
+                        <th>Model</th>
+                        <th>Price in Taka</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CPU</td>
+                        <td>AMD Ryzen 5 5600X</td>
+                        <td>20,000 ৳</td>
+                    </tr>
+                    <tr>
+                        <td>Motherboard</td>
+                        <td>MSI B550-A PRO</td>
+                        <td>14,000 ৳</td>
+                    </tr>
+                    <tr>
+                        <td>RAM</td>
+                        <td>Corsair Vengeance LPX 16GB (2 × 8GB) DDR4-3200</td>
+                        <td>10,000 ৳</td>
+                    </tr>
+                    <tr>
+                        <td>GPU</td>
+                        <td>ZOTAC Gaming GeForce GTX 1660 6GB</td>
+                        <td>24,000 ৳</td>
+                    </tr>
+                    <tr>
+                        <td>Storage</td>
+                        <td>Western Digital Blue 1TB SSD</td>
+                        <td>8,000 ৳</td>
+                    </tr>
+                    <tr>
+                        <td>PSU</td>
+                        <td>Corsair CXM 550W 80+ Bronze</td>
+                        <td>6,000 ৳</td>
+                    </tr>
+                    <tr>
+                        <td>Case</td>
+                        <td>NZXT H510</td>
+                        <td>3,000 ৳</td>
+                    </tr>
+                    <tr>
+                        <td>Monitor</td>
+                        <td>Dahua 144 HZ</td>
+                        <td>22,000 ৳</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total</td>
+                        <td>100,000 ৳</td>
+                    </tr>
+                </tfoot>
+            </table> -->
+            </div>
+        </main>
+    </body>
+    <script src="./pc-builder.js"></script>
+</html>

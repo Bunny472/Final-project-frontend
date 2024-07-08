@@ -1,0 +1,131 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 300px; /* Adjust width as needed */
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; /* Adds space between links */
+}
+
+.navbar .nav-links li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar .nav-links .btn {
+    padding: 0.5rem 1rem;
+    background-color: #f7a3a3;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar .nav-links .btn:hover {
+    background-color: #535353;
+}
+
+/* Search section styles */
+.search-section {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-form input {
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+
+.search-form button {
+    padding: 0.5rem;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button img {
+    width: 20px;
+}
+
+/* Product section styles */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    max-width: 250px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.product-card p {
+    color: #555;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.product-card span {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
